@@ -3,6 +3,7 @@ FROM node:6.10.0-alpine
 RUN apk add --no-cache \
   python \
   py-pip \
+  py-setuptools \
   ca-certificates \
   groff \
   less \
